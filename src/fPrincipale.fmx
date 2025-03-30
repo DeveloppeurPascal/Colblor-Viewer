@@ -1,0 +1,61 @@
+inherited frmPrincipale: TfrmPrincipale
+  Caption = '_AncetreFicheTraduite1'
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnResize = FormResize
+  DesignerMasterStyle = 0
+  object vsbMosaiqueDesEcrans: TVertScrollBox
+    Align = Contents
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 640.000000000000000000
+    Viewport.Height = 480.000000000000000000
+    object flMosaiqueDesEcrans: TFlowLayout
+      Align = Top
+      HitTest = False
+      Size.Width = 640.000000000000000000
+      Size.Height = 201.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+    end
+  end
+  object AfficheGagnant: TLayout
+    Align = Contents
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object AfficheGagnantBackground: TRectangle
+      Align = Client
+      Opacity = 0.600000023841857900
+      Size.Width = 640.000000000000000000
+      Size.Height = 480.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object AfficheGagnantTexte: TText
+      Align = Client
+      Size.Width = 640.000000000000000000
+      Size.Height = 480.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'cvdfng,hjhjljklj'
+      TextSettings.Font.Size = 30.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      object GlowEffect1: TGlowEffect
+        Softness = 0.400000005960464400
+        GlowColor = claGold
+        Opacity = 0.899999976158142100
+      end
+    end
+  end
+  object timerGetGrillesPartiesEncours: TTimer
+    Interval = 200
+    OnTimer = timerGetGrillesPartiesEncoursTimer
+    Left = 296
+    Top = 88
+  end
+end

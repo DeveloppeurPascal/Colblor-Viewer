@@ -1,4 +1,4 @@
-# Delphi-Projects-Template
+# Colblor Viewer
 
 [This page in English.](README.md)
 
