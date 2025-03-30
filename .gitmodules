@@ -1,9 +1,6 @@
 [submodule "lib-externes/Colblor-Translator"]
 	path = lib-externes/Colblor-Translator
 	url = https://github.com/DeveloppeurPascal/Colblor-Translator
-[submodule "lib-externes/Colblor-Server"]
-	path = lib-externes/Colblor-Server
-	url = https://github.com/DeveloppeurPascal/Colblor-Server
 [submodule "lib-externes/Colblor"]
 	path = lib-externes/Colblor
 	url = https://github.com/DeveloppeurPascal/Colblor
